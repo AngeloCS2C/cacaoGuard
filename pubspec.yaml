@@ -1,0 +1,39 @@
+name: cacao_guard_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  camera: ^0.10.0+4
+  image_picker: ^0.8.5+3
+  logger: ^2.4.0
+  tflite_flutter: ^0.11.0
+  image: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/disease1.png
+    - assets/disease2.png
+    - assets/disease3.png
+    - assets/disease4.png
+    - assets/disease5.png
+    - assets/disease6.png
+    - assets/healthycacao.jpg
+    - assets/cacaoguard.tflite
+    - assets/labels.txt
+    - assets/cacaaobj.tflite
+    - assets/obj.txt
+    - assets/ic_launcher.png
